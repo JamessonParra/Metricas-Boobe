@@ -1,9 +1,17 @@
 # Metricas-Boobe
 Archivo de prueba con Laravel + Bootstrap + JS + API.
 
-Para su ejecución simplemente:
-1. Clonar el repo
-2. Ejecutar composer install (debería generar la key automatico)
-3. Editar el archivo .env y conectar a la base datos local
-4. Ejecutar php artisan migrate --seed (Creará las tablas y datos Fakes)
-5. Ejecutar php artisan serve
+1. Crear una base de datos:
+    - En tu gestor de bases de datos (por ejemplo, phpMyAdmin), crea una nueva base de datos con el nombre broobe.
+2. Clonar el repositorio:
+    - Utiliza Git para clonar el repositorio del proyecto en tu máquina local.
+3. Instalar dependencias:
+    - cd broobe
+    - composer install
+4. Configurar la base de datos:
+    - Abre el archivo .env en un editor de texto.
+    - Configura las variables de entorno de la base de datos para que coincidan con tu base de datos broobe.
+5. Ejecutar migraciones y semillas:
+    - php artisan migrate --seed
+6. Iniciar el servidor laravel:
+    - php artisan serve
